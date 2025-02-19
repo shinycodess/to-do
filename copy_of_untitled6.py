@@ -23,7 +23,7 @@ def todo_list():
                 index = int(index_str) - 1
                 if 0 <= index < len(tasks):
                     removed_task = tasks.pop(index)
-                    print("Task '" + removed_task + "' removed!")  # No f-strings
+                    print("Task '" + removed_task + "' removed!") 
                 else:
                     print("Invalid index.")
             else:
