@@ -4,7 +4,7 @@ def todo_list():
     while True:
         print("\nTo-Do List:")
         for i, task in enumerate(tasks):
-            print(str(i + 1) + ". " + task)  # No f-strings here
+            print(str(i + 1) + ". " + task) 
 
         print("\nOptions:")
         print("1. Add a task")
